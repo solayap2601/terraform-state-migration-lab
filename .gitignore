@@ -1,0 +1,29 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Allow terraform.tfvars for lab validation
+!terraform.tfvars
+# Exclude other sensitive .tfvars files
+*.auto.tfvars
+*.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include tfplan files to ignore the plan output
+*tfplan*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
